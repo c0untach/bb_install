@@ -5,6 +5,7 @@ apt update -y
 apt install jq uro golang -y
 
 # install gau and check version
+cd /home/$USER/tools
 git clone https://github.com/lc/gau.git
 cd gau/cmd/gau
 go build
